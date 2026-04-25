@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing aircraft_controller.egg-info/PKG-INFO
+writing dependency_links to aircraft_controller.egg-info/dependency_links.txt
+writing entry points to aircraft_controller.egg-info/entry_points.txt
+writing requirements to aircraft_controller.egg-info/requires.txt
+writing top-level names to aircraft_controller.egg-info/top_level.txt
+reading manifest file 'aircraft_controller.egg-info/SOURCES.txt'
+writing manifest file 'aircraft_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /app/install/aircraft_controller/lib/python3.12/site-packages/aircraft-controller.egg-link (link to .)
+Installing ac_sample script to /app/install/aircraft_controller/lib/aircraft_controller
+Installing takeoff script to /app/install/aircraft_controller/lib/aircraft_controller
+
+Installed /app/build/aircraft_controller
+running symlink_data

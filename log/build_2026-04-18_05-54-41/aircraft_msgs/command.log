@@ -1,0 +1,4 @@
+Invoking command in '/app/build/aircraft_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /app/build/aircraft_msgs -- -j20 -l20
+Invoked command in '/app/build/aircraft_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /app/build/aircraft_msgs -- -j20 -l20
+Invoking command in '/app/build/aircraft_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /app/build/aircraft_msgs
+Invoked command in '/app/build/aircraft_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /app/build/aircraft_msgs

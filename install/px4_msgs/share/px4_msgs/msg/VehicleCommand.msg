@@ -1,0 +1,1 @@
+/app/src/px4_msgs/msg/VehicleCommand.msg

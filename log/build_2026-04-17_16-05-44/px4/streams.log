@@ -1,0 +1,72 @@
+[0.041s] Invoking command in '/app/build/px4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake /app/PX4-Autopilot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/px4
+[0.122s] -- PX4_GIT_TAG: v1.17.0-alpha1-1417-gc72a11fe9f
+[0.124s] [33mCMake Warning (dev) at CMakeLists.txt:176 (find_package):
+[0.124s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.124s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.124s]   the cmake_policy command to set the policy and suppress this warning.
+[0.125s] 
+[0.125s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.125s] [0m
+[0.191s] -- PX4 config file: /app/PX4-Autopilot/boards/px4/ros2/default.px4board
+[0.902s] -- PLATFORM ros2
+[0.902s] -- ROMFSROOT px4fmu_common
+[0.909s] -- ROOT_PATH /fs/microsd
+[0.910s] -- PARAM_FILE /fs/mtd_params
+[0.994s] -- PX4 config: px4_ros2_default
+[0.994s] -- PX4 platform: ros2
+[1.208s] -- The CXX compiler identification is GNU 13.3.0
+[1.265s] -- Detecting CXX compiler ABI info
+[1.589s] -- Detecting CXX compiler ABI info - done
+[1.632s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.633s] -- Detecting CXX compile features
+[1.635s] -- Detecting CXX compile features - done
+[1.644s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.164s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.440s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.547s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.696s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.747s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.813s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.902s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.237s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.250s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.578s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.640s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.722s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.023s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.086s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.100s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.333s] -- The C compiler identification is GNU 13.3.0
+[4.376s] -- The ASM compiler identification is GNU
+[4.385s] -- Found assembler: /usr/bin/cc
+[4.416s] -- Detecting C compiler ABI info
+[4.712s] -- Detecting C compiler ABI info - done
+[4.750s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.751s] -- Detecting C compile features
+[4.753s] -- Detecting C compile features - done
+[4.783s] -- cmake build type: RelWithDebInfo
+[4.917s] -- Adding fuzztest
+[11.089s] -- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17
+[11.358s] -- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17 - Success
+[11.358s] -- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20
+[11.474s] -- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20 - Failed
+[11.489s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.780s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.784s] -- Found Threads: TRUE  
+[24.118s] -- Building without demo. To enable demo build use: -DWITH_DEMO=True
+[24.986s] -- ROS_VERSION: 2
+[24.986s] -- AMENT_PREFIX_PATH: /app/install/vision_processor:/app/install/aircraft_controller:/app/install/px4_msgs:/app/install/aircraft_msgs:/opt/ros/jazzy
+[31.390s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[34.105s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[35.184s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[35.199s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[35.692s] -- Found PythonExtra: /usr/bin/python3  
+[37.190s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[37.824s] [31mCMake Error at cmake/package.cmake:104 (target_compile_definitions):
+[37.824s]   target_compile_definitions called with non-compilable target type
+[37.825s] Call Stack (most recent call first):
+[37.825s]   CMakeLists.txt:515 (include)
+[37.825s] 
+[37.826s] [0m
+[37.826s] -- PX4 SITL .deb version: 1.17.0~alpha1-noble (amd64)
+[38.263s] -- Configuring incomplete, errors occurred!

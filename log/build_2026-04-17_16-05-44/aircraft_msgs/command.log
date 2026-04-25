@@ -1,0 +1,1 @@
+Invoking command in '/app/build/aircraft_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake --build /app/build/aircraft_msgs -- -j20 -l20

@@ -1,0 +1,20 @@
+[0.054s] Invoking command in '/app/build/aircraft_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake /app/src/aircraft_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/aircraft_msgs
+[0.103s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.196s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.441s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.465s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.473s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.580s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.673s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.679s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.598s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.031s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.639s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.644s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.568s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.645s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.677s] -- Added test 'lint_cmake' to check CMake code style
+[3.679s] -- Added test 'xmllint' to check XML markup files
+[3.687s] -- Configuring done (3.6s)
+[3.815s] -- Generating done (0.1s)
+[3.861s] -- Build files have been written to: /app/build/aircraft_msgs

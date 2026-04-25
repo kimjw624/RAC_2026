@@ -1,0 +1,132 @@
+[0.039s] Invoking command in '/app/build/aircraft_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake --build /app/build/aircraft_msgs -- -j20 -l20
+[0.201s] [  2%] Built target aircraft_msgs__rosidl_generator_type_description
+[0.224s] [  2%] Built target ament_cmake_python_symlink_aircraft_msgs
+[0.257s] [  5%] Built target aircraft_msgs__cpp
+[0.273s] [ 20%] Built target aircraft_msgs__rosidl_generator_c
+[0.341s] [ 29%] Built target aircraft_msgs__rosidl_typesupport_introspection_c
+[0.342s] [ 38%] Built target aircraft_msgs__rosidl_typesupport_cpp
+[0.347s] [ 47%] Built target aircraft_msgs__rosidl_typesupport_c
+[0.354s] [ 55%] Built target aircraft_msgs__rosidl_typesupport_fastrtps_c
+[0.356s] [ 64%] Built target aircraft_msgs__rosidl_typesupport_fastrtps_cpp
+[0.357s] [ 73%] Built target aircraft_msgs__rosidl_typesupport_introspection_cpp
+[0.414s] [ 73%] Built target aircraft_msgs
+[0.480s] [ 76%] Built target aircraft_msgs__py
+[0.551s] [ 82%] Built target aircraft_msgs__rosidl_generator_py
+[0.621s] [ 88%] Built target aircraft_msgs_s__rosidl_typesupport_c
+[0.630s] [ 94%] Built target aircraft_msgs_s__rosidl_typesupport_fastrtps_c
+[0.633s] [100%] Built target aircraft_msgs_s__rosidl_typesupport_introspection_c
+[0.844s] running egg_info
+[0.893s] writing aircraft_msgs.egg-info/PKG-INFO
+[0.894s] writing dependency_links to aircraft_msgs.egg-info/dependency_links.txt
+[0.894s] writing top-level names to aircraft_msgs.egg-info/top_level.txt
+[1.030s] reading manifest file 'aircraft_msgs.egg-info/SOURCES.txt'
+[1.031s] writing manifest file 'aircraft_msgs.egg-info/SOURCES.txt'
+[1.107s] [100%] Built target ament_cmake_python_build_aircraft_msgs_egg
+[1.140s] Invoked command in '/app/build/aircraft_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake --build /app/build/aircraft_msgs -- -j20 -l20
+[1.168s] Invoking command in '/app/build/aircraft_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake --install /app/build/aircraft_msgs
+[1.191s] -- Install configuration: ""
+[1.193s] -- Execute custom install script
+[1.195s] -- Symlinking: /app/install/aircraft_msgs/share/ament_index/resource_index/rosidl_interfaces/aircraft_msgs
+[1.222s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/msg/AircraftState.json
+[1.249s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/aircraft_state.h
+[1.275s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/detail/aircraft_state__functions.h
+[1.299s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/detail/aircraft_state__struct.h
+[1.324s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/detail/aircraft_state__type_support.h
+[1.354s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.385s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/environment/library_path.sh
+[1.410s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/environment/library_path.dsv
+[1.443s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/detail/aircraft_state__rosidl_typesupport_fastrtps_c.h
+[1.473s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.504s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/detail/aircraft_state__rosidl_typesupport_introspection_c.h
+[1.528s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.559s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/aircraft_state.hpp
+[1.584s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/detail/aircraft_state__builder.hpp
+[1.609s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/detail/aircraft_state__struct.hpp
+[1.633s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/detail/aircraft_state__traits.hpp
+[1.658s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/detail/aircraft_state__type_support.hpp
+[1.687s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.718s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/detail/aircraft_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.742s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.769s] -- Symlinking: /app/install/aircraft_msgs/include/aircraft_msgs/aircraft_msgs/msg/detail/aircraft_state__rosidl_typesupport_introspection_cpp.hpp
+[1.799s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/environment/pythonpath.sh
+[1.828s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/environment/pythonpath.dsv
+[1.859s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs-0.0.1-py3.12.egg-info/PKG-INFO
+[1.883s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs-0.0.1-py3.12.egg-info/SOURCES.txt
+[1.908s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs-0.0.1-py3.12.egg-info/dependency_links.txt
+[1.934s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs-0.0.1-py3.12.egg-info/top_level.txt
+[1.961s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/__init__.py
+[1.985s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/_aircraft_msgs_s.ep.rosidl_typesupport_c.c
+[2.011s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/_aircraft_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.041s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/_aircraft_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.072s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/aircraft_msgs_s__rosidl_typesupport_c.so
+[2.096s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/aircraft_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.118s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/aircraft_msgs_s__rosidl_typesupport_introspection_c.so
+[2.142s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/msg/__init__.py
+[2.165s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/msg/_aircraft_state.py
+[2.188s] -- Symlinking: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/msg/_aircraft_state_s.c
+[2.212s] -- Up-to-date symlink: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/aircraft_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.213s] -- Up-to-date symlink: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/aircraft_msgs_s__rosidl_typesupport_introspection_c.so
+[2.213s] -- Up-to-date symlink: /app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/aircraft_msgs_s__rosidl_typesupport_c.so
+[2.213s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/msg/AircraftState.idl
+[2.237s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/msg/AircraftState.msg
+[2.268s] -- Symlinking: /app/install/aircraft_msgs/share/ament_index/resource_index/package_run_dependencies/aircraft_msgs
+[2.296s] -- Symlinking: /app/install/aircraft_msgs/share/ament_index/resource_index/parent_prefix_path/aircraft_msgs
+[2.329s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/environment/ament_prefix_path.sh
+[2.362s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/environment/ament_prefix_path.dsv
+[2.389s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/environment/path.sh
+[2.423s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/environment/path.dsv
+[2.449s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/local_setup.bash
+[2.473s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/local_setup.sh
+[2.497s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/local_setup.zsh
+[2.528s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/local_setup.dsv
+[2.560s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/package.dsv
+[2.592s] -- Symlinking: /app/install/aircraft_msgs/share/ament_index/resource_index/packages/aircraft_msgs
+[2.619s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/rosidl_cmake-extras.cmake
+[2.650s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.675s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.705s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.731s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.755s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.780s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.812s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/aircraft_msgsConfig.cmake
+[2.842s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/aircraft_msgsConfig-version.cmake
+[2.867s] -- Symlinking: /app/install/aircraft_msgs/share/aircraft_msgs/package.xml
+[2.893s] -- Installing: /app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_generator_c.so
+[2.893s] -- Set non-toolchain portion of runtime path of "/app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_generator_c.so" to ""
+[2.893s] -- Installing: /app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_typesupport_fastrtps_c.so
+[2.893s] -- Set non-toolchain portion of runtime path of "/app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.894s] -- Installing: /app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_typesupport_introspection_c.so
+[2.895s] -- Set non-toolchain portion of runtime path of "/app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.896s] -- Installing: /app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_typesupport_c.so
+[2.896s] -- Set non-toolchain portion of runtime path of "/app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_typesupport_c.so" to ""
+[2.897s] -- Installing: /app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.898s] -- Set non-toolchain portion of runtime path of "/app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.898s] -- Installing: /app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_typesupport_introspection_cpp.so
+[2.900s] -- Set non-toolchain portion of runtime path of "/app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.901s] -- Installing: /app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_typesupport_cpp.so
+[2.901s] -- Set non-toolchain portion of runtime path of "/app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_typesupport_cpp.so" to ""
+[3.020s] Listing '/app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs'...
+[3.020s] Compiling '/app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/__init__.py'...
+[3.025s] Listing '/app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/msg'...
+[3.026s] Compiling '/app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/msg/__init__.py'...
+[3.026s] Compiling '/app/install/aircraft_msgs/lib/python3.12/site-packages/aircraft_msgs/msg/_aircraft_state.py'...
+[3.051s] -- Installing: /app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_generator_py.so
+[3.052s] -- Set non-toolchain portion of runtime path of "/app/install/aircraft_msgs/lib/libaircraft_msgs__rosidl_generator_py.so" to ""
+[3.052s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/export_aircraft_msgs__rosidl_generator_cExport.cmake
+[3.053s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/export_aircraft_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.053s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/export_aircraft_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.054s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/export_aircraft_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.054s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/aircraft_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.054s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/aircraft_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.055s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/aircraft_msgs__rosidl_typesupport_cExport.cmake
+[3.055s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/aircraft_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.055s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/export_aircraft_msgs__rosidl_generator_cppExport.cmake
+[3.056s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/export_aircraft_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.056s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/export_aircraft_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.057s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/aircraft_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.057s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/aircraft_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.057s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/aircraft_msgs__rosidl_typesupport_cppExport.cmake
+[3.058s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/aircraft_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.058s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/export_aircraft_msgs__rosidl_generator_pyExport.cmake
+[3.058s] -- Installing: /app/install/aircraft_msgs/share/aircraft_msgs/cmake/export_aircraft_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.062s] Invoked command in '/app/build/aircraft_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake --install /app/build/aircraft_msgs

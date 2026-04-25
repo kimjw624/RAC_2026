@@ -1,0 +1,22 @@
+[2.530s] Invoking command in '/app/build/vision_processor': CMAKE_PREFIX_PATH=/app/install/aircraft_msgs:/app/install/px4_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor LD_LIBRARY_PATH=/app/install/aircraft_msgs/lib:/app/install/px4_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64 PYTHONPATH=/app/build/vision_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/install/vision_processor/lib/python3.12/site-packages:/app/install/aircraft_msgs/lib/python3.12/site-packages:/app/install/vision_processor/lib/python3.12/site-packages:/app/install/aircraft_controller/lib/python3.12/site-packages:/app/install/px4_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /app/build/vision_processor/build --no-deps symlink_data
+[3.411s] running develop
+[3.879s] running egg_info
+[3.880s] creating vision_processor.egg-info
+[3.925s] writing vision_processor.egg-info/PKG-INFO
+[3.925s] writing dependency_links to vision_processor.egg-info/dependency_links.txt
+[3.926s] writing requirements to vision_processor.egg-info/requires.txt
+[3.926s] writing top-level names to vision_processor.egg-info/top_level.txt
+[3.927s] writing manifest file 'vision_processor.egg-info/SOURCES.txt'
+[4.022s] reading manifest file 'vision_processor.egg-info/SOURCES.txt'
+[4.024s] writing manifest file 'vision_processor.egg-info/SOURCES.txt'
+[4.075s] running build_ext
+[4.076s] Creating /app/install/vision_processor/lib/python3.12/site-packages/vision-processor.egg-link (link to .)
+[4.079s] 
+[4.080s] Installed /app/build/vision_processor
+[4.080s] running symlink_data
+[4.080s] creating /app/install/vision_processor/share/ament_index
+[4.081s] creating /app/install/vision_processor/share/ament_index/resource_index
+[4.081s] creating /app/install/vision_processor/share/ament_index/resource_index/packages
+[4.081s] symbolically linking /app/build/vision_processor/resource/vision_processor -> /app/install/vision_processor/share/ament_index/resource_index/packages
+[4.082s] symbolically linking /app/build/vision_processor/package.xml -> /app/install/vision_processor/share/vision_processor
+[4.164s] Invoked command in '/app/build/vision_processor' returned '0': CMAKE_PREFIX_PATH=/app/install/aircraft_msgs:/app/install/px4_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor LD_LIBRARY_PATH=/app/install/aircraft_msgs/lib:/app/install/px4_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64 PYTHONPATH=/app/build/vision_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/install/vision_processor/lib/python3.12/site-packages:/app/install/aircraft_msgs/lib/python3.12/site-packages:/app/install/vision_processor/lib/python3.12/site-packages:/app/install/aircraft_controller/lib/python3.12/site-packages:/app/install/px4_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /app/build/vision_processor/build --no-deps symlink_data

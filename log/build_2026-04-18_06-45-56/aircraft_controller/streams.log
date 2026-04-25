@@ -1,0 +1,18 @@
+[1.545s] Invoking command in '/app/build/aircraft_controller': PYTHONPATH=/app/build/aircraft_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/install/aircraft_controller/lib/python3.12/site-packages:/app/install/px4_msgs/lib/python3.12/site-packages:/app/install/aircraft_msgs/lib/python3.12/site-packages:/app/build/vision_processor:/app/install/vision_processor/lib/python3.12/site-packages:/app/build/aircraft_controller:/app/install/aircraft_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /app/build/aircraft_controller/build --no-deps symlink_data
+[2.172s] running develop
+[2.489s] running egg_info
+[2.518s] writing aircraft_controller.egg-info/PKG-INFO
+[2.519s] writing dependency_links to aircraft_controller.egg-info/dependency_links.txt
+[2.519s] writing entry points to aircraft_controller.egg-info/entry_points.txt
+[2.519s] writing requirements to aircraft_controller.egg-info/requires.txt
+[2.519s] writing top-level names to aircraft_controller.egg-info/top_level.txt
+[2.585s] reading manifest file 'aircraft_controller.egg-info/SOURCES.txt'
+[2.586s] writing manifest file 'aircraft_controller.egg-info/SOURCES.txt'
+[2.620s] running build_ext
+[2.620s] Creating /app/install/aircraft_controller/lib/python3.12/site-packages/aircraft-controller.egg-link (link to .)
+[2.623s] Installing ac_sample script to /app/install/aircraft_controller/lib/aircraft_controller
+[2.623s] Installing takeoff script to /app/install/aircraft_controller/lib/aircraft_controller
+[2.626s] 
+[2.626s] Installed /app/build/aircraft_controller
+[2.627s] running symlink_data
+[2.746s] Invoked command in '/app/build/aircraft_controller' returned '0': PYTHONPATH=/app/build/aircraft_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/app/install/aircraft_controller/lib/python3.12/site-packages:/app/install/px4_msgs/lib/python3.12/site-packages:/app/install/aircraft_msgs/lib/python3.12/site-packages:/app/build/vision_processor:/app/install/vision_processor/lib/python3.12/site-packages:/app/build/aircraft_controller:/app/install/aircraft_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /app/build/aircraft_controller/build --no-deps symlink_data

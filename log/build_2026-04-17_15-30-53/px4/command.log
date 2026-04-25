@@ -1,0 +1,2 @@
+Invoking command in '/app/build/px4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake /app/PX4-Autopilot -DCMAKE_INSTALL_PREFIX=/app/install/px4
+Invoked command in '/app/build/px4' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake /app/PX4-Autopilot -DCMAKE_INSTALL_PREFIX=/app/install/px4

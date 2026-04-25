@@ -1,0 +1,32 @@
+[0.056s] Invoking command in '/app/build/aircraft_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake /app/src/aircraft_msgs -DCMAKE_INSTALL_PREFIX=/app/install/aircraft_msgs
+[0.360s] -- The C compiler identification is GNU 13.3.0
+[0.682s] -- The CXX compiler identification is GNU 13.3.0
+[0.761s] -- Detecting C compiler ABI info
+[1.075s] -- Detecting C compiler ABI info - done
+[1.114s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.115s] -- Detecting C compile features
+[1.116s] -- Detecting C compile features - done
+[1.152s] -- Detecting CXX compiler ABI info
+[1.484s] -- Detecting CXX compiler ABI info - done
+[1.531s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.532s] -- Detecting CXX compile features
+[1.534s] -- Detecting CXX compile features - done
+[1.549s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.148s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.546s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.794s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.981s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.999s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[5.560s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[7.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.907s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.919s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[10.418s] -- Found PythonExtra: /usr/bin/python3  
+[12.285s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[12.496s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[12.574s] -- Added test 'lint_cmake' to check CMake code style
+[12.578s] -- Added test 'xmllint' to check XML markup files
+[12.588s] -- Configuring done (12.5s)
+[12.721s] -- Generating done (0.1s)
+[12.771s] -- Build files have been written to: /app/build/aircraft_msgs

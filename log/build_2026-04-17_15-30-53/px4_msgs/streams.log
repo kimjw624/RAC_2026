@@ -1,0 +1,36 @@
+[0.041s] Invoking command in '/app/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake /app/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/app/install/px4_msgs
+[0.334s] -- The C compiler identification is GNU 13.3.0
+[0.657s] -- The CXX compiler identification is GNU 13.3.0
+[0.731s] -- Detecting C compiler ABI info
+[1.038s] -- Detecting C compiler ABI info - done
+[1.077s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.079s] -- Detecting C compile features
+[1.082s] -- Detecting C compile features - done
+[1.121s] -- Detecting CXX compiler ABI info
+[1.468s] -- Detecting CXX compiler ABI info - done
+[1.515s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.516s] -- Detecting CXX compile features
+[1.518s] -- Detecting CXX compile features - done
+[1.529s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.074s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.505s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[2.655s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.718s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.856s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.928s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.979s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[10.400s] -- Found ament_cmake_cppcheck: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[10.413s] -- Found ament_cmake_cpplint: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[10.423s] -- Found ament_cmake_uncrustify: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[10.435s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[13.662s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.861s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[15.358s] -- Found PythonExtra: /usr/bin/python3  
+[16.946s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[17.190s] -- Found ament_cmake_flake8: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[17.198s] -- Found ament_cmake_pep257: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[17.267s] -- Configuring done (17.2s)
+[18.874s] -- Generating done (1.2s)
+[19.038s] -- Build files have been written to: /app/build/px4_msgs

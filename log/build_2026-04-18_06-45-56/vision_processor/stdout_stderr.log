@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing vision_processor.egg-info/PKG-INFO
+writing dependency_links to vision_processor.egg-info/dependency_links.txt
+writing requirements to vision_processor.egg-info/requires.txt
+writing top-level names to vision_processor.egg-info/top_level.txt
+reading manifest file 'vision_processor.egg-info/SOURCES.txt'
+writing manifest file 'vision_processor.egg-info/SOURCES.txt'
+running build_ext
+Creating /app/install/vision_processor/lib/python3.12/site-packages/vision-processor.egg-link (link to .)
+
+Installed /app/build/vision_processor
+running symlink_data

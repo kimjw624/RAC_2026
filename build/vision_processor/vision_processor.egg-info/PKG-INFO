@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: vision-processor
+Version: 0.1.0
+Summary: Vision Processing for RAC2026
+Maintainer: PresidentPlant
+Maintainer-email: nomailforyou@snu.ac.kr
+License: Apache-2.0
+Provides-Extra: test

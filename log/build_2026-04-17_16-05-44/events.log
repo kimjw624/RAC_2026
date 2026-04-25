@@ -1,0 +1,542 @@
+[0.000000] (-) TimerEvent: {}
+[0.000911] (aircraft_msgs) JobQueued: {'identifier': 'aircraft_msgs', 'dependencies': OrderedDict()}
+[0.001177] (px4) JobQueued: {'identifier': 'px4', 'dependencies': OrderedDict()}
+[0.001306] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.001347] (aircraft_controller) JobQueued: {'identifier': 'aircraft_controller', 'dependencies': OrderedDict({'aircraft_msgs': '/app/install/aircraft_msgs', 'px4_msgs': '/app/install/px4_msgs'})}
+[0.001403] (vision_processor) JobQueued: {'identifier': 'vision_processor', 'dependencies': OrderedDict({'aircraft_msgs': '/app/install/aircraft_msgs'})}
+[0.002766] (aircraft_msgs) JobStarted: {'identifier': 'aircraft_msgs'}
+[0.025151] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.036405] (px4) JobStarted: {'identifier': 'px4'}
+[0.050049] (aircraft_msgs) JobProgress: {'identifier': 'aircraft_msgs', 'progress': 'cmake'}
+[0.051674] (aircraft_msgs) JobProgress: {'identifier': 'aircraft_msgs', 'progress': 'build'}
+[0.053486] (aircraft_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/build/aircraft_msgs', '--', '-j20', '-l20'], 'cwd': '/app/build/aircraft_msgs', 'env': OrderedDict({'NV_LIBCUBLAS_VERSION': '13.2.0.9-1', 'HOSTNAME': 'jungwon-Vivobook-ASUSLaptop-K6602VU-K6602VU', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/app/install/px4_msgs/lib:/app/install/aircraft_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64', 'HOME': '/home/ubuntu', 'OLDPWD': '/app/src/px4_msgs', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'NV_LIBNPP_PACKAGE': 'libnpp-13-1=13.0.2.21-1', 'CUDA_VERSION': '13.1.0', 'COLCON_PREFIX_PATH': '/app/install', 'ROS_DISTRO': 'jazzy', 'NV_LIBCUBLAS_PACKAGE_NAME': 'libcublas-13-1', 'NVIDIA_REQUIRE_CUDA': 'cuda>=13.1 brand=unknown,driver>=535,driver<536 brand=grid,driver>=535,driver<536 brand=tesla,driver>=535,driver<536 brand=nvidia,driver>=535,driver<536 brand=quadro,driver>=535,driver<536 brand=quadrortx,driver>=535,driver<536 brand=nvidiartx,driver>=535,driver<536 brand=vapps,driver>=535,driver<536 brand=vpc,driver>=535,driver<536 brand=vcs,driver>=535,driver<536 brand=vws,driver>=535,driver<536 brand=cloudgaming,driver>=535,driver<536 brand=unknown,driver>=550,driver<551 brand=grid,driver>=550,driver<551 brand=tesla,driver>=550,driver<551 brand=nvidia,driver>=550,driver<551 brand=quadro,driver>=550,driver<551 brand=quadrortx,driver>=550,driver<551 brand=nvidiartx,driver>=550,driver<551 brand=vapps,driver>=550,driver<551 brand=vpc,driver>=550,driver<551 brand=vcs,driver>=550,driver<551 brand=vws,driver>=550,driver<551 brand=cloudgaming,driver>=550,driver<551 brand=unknown,driver>=570,driver<571 brand=grid,driver>=570,driver<571 brand=tesla,driver>=570,driver<571 brand=nvidia,driver>=570,driver<571 brand=quadro,driver>=570,driver<571 brand=quadrortx,driver>=570,driver<571 brand=nvidiartx,driver>=570,driver<571 brand=vapps,driver>=570,driver<571 brand=vpc,driver>=570,driver<571 brand=vcs,driver>=570,driver<571 brand=vws,driver>=570,driver<571 brand=cloudgaming,driver>=570,driver<571 brand=unknown,driver>=575,driver<576 brand=grid,driver>=575,driver<576 brand=tesla,driver>=575,driver<576 brand=nvidia,driver>=575,driver<576 brand=quadro,driver>=575,driver<576 brand=quadrortx,driver>=575,driver<576 brand=nvidiartx,driver>=575,driver<576 brand=vapps,driver>=575,driver<576 brand=vpc,driver>=575,driver<576 brand=vcs,driver>=575,driver<576 brand=vws,driver>=575,driver<576 brand=cloudgaming,driver>=575,driver<576 brand=unknown,driver>=580,driver<581 brand=grid,driver>=580,driver<581 brand=tesla,driver>=580,driver<581 brand=nvidia,driver>=580,driver<581 brand=quadro,driver>=580,driver<581 brand=quadrortx,driver>=580,driver<581 brand=nvidiartx,driver>=580,driver<581 brand=vapps,driver>=580,driver<581 brand=vpc,driver>=580,driver<581 brand=vcs,driver>=580,driver<581 brand=vws,driver>=580,driver<581 brand=cloudgaming,driver>=580,driver<581', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NV_LIBCUSPARSE_VERSION': '12.7.2.19-1', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'NV_CUDA_LIB_VERSION': '13.1.0-1', 'TERM': 'xterm', 'NV_CUDA_CUDART_VERSION': '13.1.80-1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'NV_LIBCUBLAS_PACKAGE': 'libcublas-13-1=13.2.0.9-1', 'NVARCH': 'x86_64', 'DISPLAY': ':1', 'NVIDIA_PRODUCT_NAME': 'CUDA', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/app/install/vision_processor:/app/install/aircraft_controller:/app/install/px4_msgs:/app/install/aircraft_msgs:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'NV_NVTX_VERSION': '13.1.68-1', 'NV_LIBNPP_VERSION': '13.0.2.21-1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/app/build/aircraft_msgs', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/app/install/vision_processor/lib/python3.12/site-packages:/app/install/aircraft_controller/lib/python3.12/site-packages:/app/install/px4_msgs/lib/python3.12/site-packages:/app/install/aircraft_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/app/install/px4_msgs:/app/install/aircraft_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy'}), 'shell': False}
+[0.060420] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.062273] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[0.063654] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/build/px4_msgs', '--', '-j20', '-l20'], 'cwd': '/app/build/px4_msgs', 'env': OrderedDict({'NV_LIBCUBLAS_VERSION': '13.2.0.9-1', 'HOSTNAME': 'jungwon-Vivobook-ASUSLaptop-K6602VU-K6602VU', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/app/install/px4_msgs/lib:/app/install/aircraft_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64', 'HOME': '/home/ubuntu', 'OLDPWD': '/app/src/px4_msgs', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'NV_LIBNPP_PACKAGE': 'libnpp-13-1=13.0.2.21-1', 'CUDA_VERSION': '13.1.0', 'COLCON_PREFIX_PATH': '/app/install', 'ROS_DISTRO': 'jazzy', 'NV_LIBCUBLAS_PACKAGE_NAME': 'libcublas-13-1', 'NVIDIA_REQUIRE_CUDA': 'cuda>=13.1 brand=unknown,driver>=535,driver<536 brand=grid,driver>=535,driver<536 brand=tesla,driver>=535,driver<536 brand=nvidia,driver>=535,driver<536 brand=quadro,driver>=535,driver<536 brand=quadrortx,driver>=535,driver<536 brand=nvidiartx,driver>=535,driver<536 brand=vapps,driver>=535,driver<536 brand=vpc,driver>=535,driver<536 brand=vcs,driver>=535,driver<536 brand=vws,driver>=535,driver<536 brand=cloudgaming,driver>=535,driver<536 brand=unknown,driver>=550,driver<551 brand=grid,driver>=550,driver<551 brand=tesla,driver>=550,driver<551 brand=nvidia,driver>=550,driver<551 brand=quadro,driver>=550,driver<551 brand=quadrortx,driver>=550,driver<551 brand=nvidiartx,driver>=550,driver<551 brand=vapps,driver>=550,driver<551 brand=vpc,driver>=550,driver<551 brand=vcs,driver>=550,driver<551 brand=vws,driver>=550,driver<551 brand=cloudgaming,driver>=550,driver<551 brand=unknown,driver>=570,driver<571 brand=grid,driver>=570,driver<571 brand=tesla,driver>=570,driver<571 brand=nvidia,driver>=570,driver<571 brand=quadro,driver>=570,driver<571 brand=quadrortx,driver>=570,driver<571 brand=nvidiartx,driver>=570,driver<571 brand=vapps,driver>=570,driver<571 brand=vpc,driver>=570,driver<571 brand=vcs,driver>=570,driver<571 brand=vws,driver>=570,driver<571 brand=cloudgaming,driver>=570,driver<571 brand=unknown,driver>=575,driver<576 brand=grid,driver>=575,driver<576 brand=tesla,driver>=575,driver<576 brand=nvidia,driver>=575,driver<576 brand=quadro,driver>=575,driver<576 brand=quadrortx,driver>=575,driver<576 brand=nvidiartx,driver>=575,driver<576 brand=vapps,driver>=575,driver<576 brand=vpc,driver>=575,driver<576 brand=vcs,driver>=575,driver<576 brand=vws,driver>=575,driver<576 brand=cloudgaming,driver>=575,driver<576 brand=unknown,driver>=580,driver<581 brand=grid,driver>=580,driver<581 brand=tesla,driver>=580,driver<581 brand=nvidia,driver>=580,driver<581 brand=quadro,driver>=580,driver<581 brand=quadrortx,driver>=580,driver<581 brand=nvidiartx,driver>=580,driver<581 brand=vapps,driver>=580,driver<581 brand=vpc,driver>=580,driver<581 brand=vcs,driver>=580,driver<581 brand=vws,driver>=580,driver<581 brand=cloudgaming,driver>=580,driver<581', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NV_LIBCUSPARSE_VERSION': '12.7.2.19-1', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'NV_CUDA_LIB_VERSION': '13.1.0-1', 'TERM': 'xterm', 'NV_CUDA_CUDART_VERSION': '13.1.80-1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'NV_LIBCUBLAS_PACKAGE': 'libcublas-13-1=13.2.0.9-1', 'NVARCH': 'x86_64', 'DISPLAY': ':1', 'NVIDIA_PRODUCT_NAME': 'CUDA', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/app/install/vision_processor:/app/install/aircraft_controller:/app/install/px4_msgs:/app/install/aircraft_msgs:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'NV_NVTX_VERSION': '13.1.68-1', 'NV_LIBNPP_VERSION': '13.0.2.21-1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/app/build/px4_msgs', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/app/install/vision_processor/lib/python3.12/site-packages:/app/install/aircraft_controller/lib/python3.12/site-packages:/app/install/px4_msgs/lib/python3.12/site-packages:/app/install/aircraft_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/app/install/px4_msgs:/app/install/aircraft_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy'}), 'shell': False}
+[0.072651] (px4) JobProgress: {'identifier': 'px4', 'progress': 'cmake'}
+[0.074067] (px4) Command: {'cmd': ['/usr/bin/cmake', '/app/PX4-Autopilot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/app/install/px4'], 'cwd': '/app/build/px4', 'env': OrderedDict({'NV_LIBCUBLAS_VERSION': '13.2.0.9-1', 'HOSTNAME': 'jungwon-Vivobook-ASUSLaptop-K6602VU-K6602VU', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/app/install/px4_msgs/lib:/app/install/aircraft_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64', 'HOME': '/home/ubuntu', 'OLDPWD': '/app/src/px4_msgs', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'NV_LIBNPP_PACKAGE': 'libnpp-13-1=13.0.2.21-1', 'CUDA_VERSION': '13.1.0', 'COLCON_PREFIX_PATH': '/app/install', 'ROS_DISTRO': 'jazzy', 'NV_LIBCUBLAS_PACKAGE_NAME': 'libcublas-13-1', 'NVIDIA_REQUIRE_CUDA': 'cuda>=13.1 brand=unknown,driver>=535,driver<536 brand=grid,driver>=535,driver<536 brand=tesla,driver>=535,driver<536 brand=nvidia,driver>=535,driver<536 brand=quadro,driver>=535,driver<536 brand=quadrortx,driver>=535,driver<536 brand=nvidiartx,driver>=535,driver<536 brand=vapps,driver>=535,driver<536 brand=vpc,driver>=535,driver<536 brand=vcs,driver>=535,driver<536 brand=vws,driver>=535,driver<536 brand=cloudgaming,driver>=535,driver<536 brand=unknown,driver>=550,driver<551 brand=grid,driver>=550,driver<551 brand=tesla,driver>=550,driver<551 brand=nvidia,driver>=550,driver<551 brand=quadro,driver>=550,driver<551 brand=quadrortx,driver>=550,driver<551 brand=nvidiartx,driver>=550,driver<551 brand=vapps,driver>=550,driver<551 brand=vpc,driver>=550,driver<551 brand=vcs,driver>=550,driver<551 brand=vws,driver>=550,driver<551 brand=cloudgaming,driver>=550,driver<551 brand=unknown,driver>=570,driver<571 brand=grid,driver>=570,driver<571 brand=tesla,driver>=570,driver<571 brand=nvidia,driver>=570,driver<571 brand=quadro,driver>=570,driver<571 brand=quadrortx,driver>=570,driver<571 brand=nvidiartx,driver>=570,driver<571 brand=vapps,driver>=570,driver<571 brand=vpc,driver>=570,driver<571 brand=vcs,driver>=570,driver<571 brand=vws,driver>=570,driver<571 brand=cloudgaming,driver>=570,driver<571 brand=unknown,driver>=575,driver<576 brand=grid,driver>=575,driver<576 brand=tesla,driver>=575,driver<576 brand=nvidia,driver>=575,driver<576 brand=quadro,driver>=575,driver<576 brand=quadrortx,driver>=575,driver<576 brand=nvidiartx,driver>=575,driver<576 brand=vapps,driver>=575,driver<576 brand=vpc,driver>=575,driver<576 brand=vcs,driver>=575,driver<576 brand=vws,driver>=575,driver<576 brand=cloudgaming,driver>=575,driver<576 brand=unknown,driver>=580,driver<581 brand=grid,driver>=580,driver<581 brand=tesla,driver>=580,driver<581 brand=nvidia,driver>=580,driver<581 brand=quadro,driver>=580,driver<581 brand=quadrortx,driver>=580,driver<581 brand=nvidiartx,driver>=580,driver<581 brand=vapps,driver>=580,driver<581 brand=vpc,driver>=580,driver<581 brand=vcs,driver>=580,driver<581 brand=vws,driver>=580,driver<581 brand=cloudgaming,driver>=580,driver<581', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NV_LIBCUSPARSE_VERSION': '12.7.2.19-1', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'NV_CUDA_LIB_VERSION': '13.1.0-1', 'TERM': 'xterm', 'NV_CUDA_CUDART_VERSION': '13.1.80-1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'NV_LIBCUBLAS_PACKAGE': 'libcublas-13-1=13.2.0.9-1', 'NVARCH': 'x86_64', 'DISPLAY': ':1', 'NVIDIA_PRODUCT_NAME': 'CUDA', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/app/install/vision_processor:/app/install/aircraft_controller:/app/install/px4_msgs:/app/install/aircraft_msgs:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'NV_NVTX_VERSION': '13.1.68-1', 'NV_LIBNPP_VERSION': '13.0.2.21-1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/app/build/px4', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/app/install/vision_processor/lib/python3.12/site-packages:/app/install/aircraft_controller/lib/python3.12/site-packages:/app/install/px4_msgs/lib/python3.12/site-packages:/app/install/aircraft_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/app/install/px4_msgs:/app/install/aircraft_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy'}), 'shell': False}
+[0.099859] (-) TimerEvent: {}
+[0.158775] (px4) StdoutLine: {'line': b'-- PX4_GIT_TAG: v1.17.0-alpha1-1417-gc72a11fe9f\n'}
+[0.160881] (px4) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:176 (find_package):\n'}
+[0.161525] (px4) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.161751] (px4) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.161981] (px4) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.162202] (px4) StderrLine: {'line': b'\n'}
+[0.162382] (px4) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.162553] (px4) StderrLine: {'line': b'\x1b[0m\n'}
+[0.200009] (-) TimerEvent: {}
+[0.222107] (aircraft_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[0.228388] (px4) StdoutLine: {'line': b'-- PX4 config file: /app/PX4-Autopilot/boards/px4/ros2/default.px4board\n'}
+[0.242091] (aircraft_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_aircraft_msgs\n'}
+[0.300181] (-) TimerEvent: {}
+[0.400734] (-) TimerEvent: {}
+[0.501440] (-) TimerEvent: {}
+[0.602083] (-) TimerEvent: {}
+[0.702813] (-) TimerEvent: {}
+[0.803527] (-) TimerEvent: {}
+[0.863815] (aircraft_msgs) StdoutLine: {'line': b'[  2%] Built target aircraft_msgs__rosidl_generator_type_description\n'}
+[0.899299] (aircraft_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.903663] (-) TimerEvent: {}
+[0.929171] (aircraft_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.938669] (px4) StdoutLine: {'line': b'-- PLATFORM ros2\n'}
+[0.939603] (aircraft_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.939957] (px4) StdoutLine: {'line': b'-- ROMFSROOT px4fmu_common\n'}
+[0.943571] (aircraft_msgs) StdoutLine: {'line': b'creating aircraft_msgs.egg-info\n'}
+[0.946522] (px4) StdoutLine: {'line': b'-- ROOT_PATH /fs/microsd\n'}
+[0.947257] (px4) StdoutLine: {'line': b'-- PARAM_FILE /fs/mtd_params\n'}
+[1.003963] (-) TimerEvent: {}
+[1.012908] (aircraft_msgs) StdoutLine: {'line': b'writing aircraft_msgs.egg-info/PKG-INFO\n'}
+[1.013687] (aircraft_msgs) StdoutLine: {'line': b'writing dependency_links to aircraft_msgs.egg-info/dependency_links.txt\n'}
+[1.014243] (aircraft_msgs) StdoutLine: {'line': b'writing top-level names to aircraft_msgs.egg-info/top_level.txt\n'}
+[1.014854] (aircraft_msgs) StdoutLine: {'line': b"writing manifest file 'aircraft_msgs.egg-info/SOURCES.txt'\n"}
+[1.031081] (px4) StdoutLine: {'line': b'-- PX4 config: px4_ros2_default\n'}
+[1.031661] (px4) StdoutLine: {'line': b'-- PX4 platform: ros2\n'}
+[1.104107] (-) TimerEvent: {}
+[1.161547] (aircraft_msgs) StdoutLine: {'line': b"reading manifest file 'aircraft_msgs.egg-info/SOURCES.txt'\n"}
+[1.163663] (aircraft_msgs) StdoutLine: {'line': b"writing manifest file 'aircraft_msgs.egg-info/SOURCES.txt'\n"}
+[1.204263] (-) TimerEvent: {}
+[1.245230] (px4) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.261475] (aircraft_msgs) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_aircraft_msgs_egg\n'}
+[1.301868] (px4) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.304436] (-) TimerEvent: {}
+[1.404922] (-) TimerEvent: {}
+[1.505629] (-) TimerEvent: {}
+[1.606374] (-) TimerEvent: {}
+[1.625746] (px4) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.668997] (px4) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.670149] (px4) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.671921] (px4) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.675794] (aircraft_msgs) StdoutLine: {'line': b'[  8%] Built target aircraft_msgs__cpp\n'}
+[1.681078] (px4) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.706529] (-) TimerEvent: {}
+[1.807098] (-) TimerEvent: {}
+[1.834409] (aircraft_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/aircraft_msgs__rosidl_generator_c.dir/rosidl_generator_c/aircraft_msgs/msg/detail/aircraft_state__type_support.c.o\x1b[0m\n'}
+[1.834938] (aircraft_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/aircraft_msgs__rosidl_generator_c.dir/rosidl_generator_c/aircraft_msgs/msg/detail/aircraft_state__functions.c.o\x1b[0m\n'}
+[1.839845] (aircraft_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/aircraft_msgs__rosidl_generator_c.dir/rosidl_generator_c/aircraft_msgs/msg/detail/aircraft_state__description.c.o\x1b[0m\n'}
+[1.907286] (-) TimerEvent: {}
+[1.981404] (aircraft_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libaircraft_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.007473] (-) TimerEvent: {}
+[2.101289] (aircraft_msgs) StdoutLine: {'line': b'[ 20%] Built target aircraft_msgs__rosidl_generator_c\n'}
+[2.107635] (-) TimerEvent: {}
+[2.131853] (aircraft_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.133656] (aircraft_msgs) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.134493] (aircraft_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.138535] (aircraft_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.140736] (aircraft_msgs) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.141244] (aircraft_msgs) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.201555] (px4) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.207804] (-) TimerEvent: {}
+[2.308369] (-) TimerEvent: {}
+[2.408958] (-) TimerEvent: {}
+[2.477528] (px4) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.509170] (-) TimerEvent: {}
+[2.583869] (px4) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.609355] (-) TimerEvent: {}
+[2.710049] (-) TimerEvent: {}
+[2.733494] (px4) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.784148] (px4) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.810180] (-) TimerEvent: {}
+[2.849912] (px4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.884512] (aircraft_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/aircraft_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aircraft_msgs/msg/aircraft_state__type_support.cpp.o\x1b[0m\n'}
+[2.910425] (-) TimerEvent: {}
+[2.938807] (px4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.974661] (aircraft_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/aircraft_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aircraft_msgs/msg/detail/aircraft_state__type_support.c.o\x1b[0m\n'}
+[2.991615] (aircraft_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/aircraft_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aircraft_msgs/msg/aircraft_state__type_support.cpp.o\x1b[0m\n'}
+[3.010824] (-) TimerEvent: {}
+[3.014752] (aircraft_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/aircraft_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aircraft_msgs/msg/detail/aircraft_state__type_support_c.cpp.o\x1b[0m\n'}
+[3.052093] (aircraft_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/aircraft_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aircraft_msgs/msg/detail/aircraft_state__type_support.cpp.o\x1b[0m\n'}
+[3.103797] (aircraft_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libaircraft_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.110981] (-) TimerEvent: {}
+[3.126963] (aircraft_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/aircraft_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aircraft_msgs/msg/detail/dds_fastrtps/aircraft_state__type_support.cpp.o\x1b[0m\n'}
+[3.162465] (aircraft_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libaircraft_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.211223] (-) TimerEvent: {}
+[3.218859] (aircraft_msgs) StdoutLine: {'line': b'[ 61%] Built target aircraft_msgs__rosidl_typesupport_introspection_c\n'}
+[3.273757] (px4) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[3.287227] (px4) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.294761] (aircraft_msgs) StdoutLine: {'line': b'[ 61%] Built target aircraft_msgs__rosidl_typesupport_c\n'}
+[3.311455] (-) TimerEvent: {}
+[3.412182] (-) TimerEvent: {}
+[3.512919] (-) TimerEvent: {}
+[3.613864] (-) TimerEvent: {}
+[3.614824] (px4) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.676283] (px4) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.714088] (-) TimerEvent: {}
+[3.759316] (px4) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.814257] (-) TimerEvent: {}
+[3.906382] (aircraft_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libaircraft_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.914405] (-) TimerEvent: {}
+[4.015081] (-) TimerEvent: {}
+[4.038730] (aircraft_msgs) StdoutLine: {'line': b'[ 64%] Built target aircraft_msgs__rosidl_typesupport_cpp\n'}
+[4.060451] (px4) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[4.115265] (-) TimerEvent: {}
+[4.123686] (px4) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[4.136825] (px4) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[4.215457] (-) TimerEvent: {}
+[4.316187] (-) TimerEvent: {}
+[4.362199] (aircraft_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libaircraft_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.370517] (px4) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[4.413666] (px4) StdoutLine: {'line': b'-- The ASM compiler identification is GNU\n'}
+[4.416305] (-) TimerEvent: {}
+[4.422468] (px4) StdoutLine: {'line': b'-- Found assembler: /usr/bin/cc\n'}
+[4.453310] (px4) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.485388] (aircraft_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaircraft_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.486371] (aircraft_msgs) StdoutLine: {'line': b'[ 70%] Built target aircraft_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.516491] (-) TimerEvent: {}
+[4.617383] (-) TimerEvent: {}
+[4.646290] (aircraft_msgs) StdoutLine: {'line': b'[ 70%] Built target aircraft_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.718180] (-) TimerEvent: {}
+[4.749380] (px4) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.786921] (px4) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.788152] (px4) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.789790] (px4) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.818358] (-) TimerEvent: {}
+[4.819810] (px4) StdoutLine: {'line': b'-- cmake build type: RelWithDebInfo\n'}
+[4.898549] (aircraft_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libaircraft_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.918523] (-) TimerEvent: {}
+[4.954299] (px4) StdoutLine: {'line': b'-- Adding fuzztest\n'}
+[5.018674] (-) TimerEvent: {}
+[5.063572] (aircraft_msgs) StdoutLine: {'line': b'[ 73%] Built target aircraft_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.118857] (-) TimerEvent: {}
+[5.126616] (aircraft_msgs) StdoutLine: {'line': b'[ 73%] Built target aircraft_msgs\n'}
+[5.195740] (aircraft_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.219049] (-) TimerEvent: {}
+[5.319712] (-) TimerEvent: {}
+[5.420397] (-) TimerEvent: {}
+[5.521121] (-) TimerEvent: {}
+[5.532955] (px4_msgs) StderrLine: {'line': b"failed to create symbolic link '/app/build/px4_msgs/ament_cmake_python/px4_msgs/px4_msgs' because existing path cannot be removed: Is a directory\n"}
+[5.536012] (px4_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_px4_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_px4_msgs] Error 1\n'}
+[5.536910] (px4_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_px4_msgs.dir/all] Error 2\n'}
+[5.537478] (px4_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.564145] (px4_msgs) StdoutLine: {'line': b'[  0%] Built target px4_msgs__rosidl_generator_type_description\n'}
+[5.568002] (px4_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.576004] (px4_msgs) CommandEnded: {'returncode': 2}
+[5.621324] (-) TimerEvent: {}
+[5.633950] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 2}
+[5.721467] (-) TimerEvent: {}
+[5.822005] (-) TimerEvent: {}
+[5.922574] (-) TimerEvent: {}
+[6.017263] (aircraft_msgs) StdoutLine: {'line': b'[ 76%] Built target aircraft_msgs__py\n'}
+[6.022745] (-) TimerEvent: {}
+[6.087504] (aircraft_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/aircraft_msgs__rosidl_generator_py.dir/rosidl_generator_py/aircraft_msgs/msg/_aircraft_state_s.c.o\x1b[0m\n'}
+[6.122903] (-) TimerEvent: {}
+[6.223475] (-) TimerEvent: {}
+[6.324014] (-) TimerEvent: {}
+[6.424611] (-) TimerEvent: {}
+[6.458214] (aircraft_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libaircraft_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.524779] (-) TimerEvent: {}
+[6.596144] (aircraft_msgs) StdoutLine: {'line': b'[ 82%] Built target aircraft_msgs__rosidl_generator_py\n'}
+[6.624946] (-) TimerEvent: {}
+[6.655402] (aircraft_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/aircraft_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/aircraft_msgs/_aircraft_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.656254] (aircraft_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/aircraft_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/aircraft_msgs/_aircraft_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.661593] (aircraft_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/aircraft_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/aircraft_msgs/_aircraft_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.725103] (-) TimerEvent: {}
+[6.825668] (-) TimerEvent: {}
+[6.926258] (-) TimerEvent: {}
+[6.984969] (aircraft_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/aircraft_msgs/aircraft_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.000143] (aircraft_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/aircraft_msgs/aircraft_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.026498] (-) TimerEvent: {}
+[7.036345] (aircraft_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/aircraft_msgs/aircraft_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.087188] (aircraft_msgs) StdoutLine: {'line': b'[100%] Built target aircraft_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[7.093975] (aircraft_msgs) StdoutLine: {'line': b'[100%] Built target aircraft_msgs_s__rosidl_typesupport_introspection_c\n'}
+[7.126659] (-) TimerEvent: {}
+[7.142414] (aircraft_msgs) StdoutLine: {'line': b'[100%] Built target aircraft_msgs_s__rosidl_typesupport_c\n'}
+[7.183153] (aircraft_msgs) JobEnded: {'identifier': 'aircraft_msgs', 'rc': 'SIGINT'}
+[7.226849] (-) TimerEvent: {}
+[7.327481] (-) TimerEvent: {}
+[7.428110] (-) TimerEvent: {}
+[7.528724] (-) TimerEvent: {}
+[7.629501] (-) TimerEvent: {}
+[7.730118] (-) TimerEvent: {}
+[7.830790] (-) TimerEvent: {}
+[7.931398] (-) TimerEvent: {}
+[8.032038] (-) TimerEvent: {}
+[8.132546] (-) TimerEvent: {}
+[8.233054] (-) TimerEvent: {}
+[8.333769] (-) TimerEvent: {}
+[8.434357] (-) TimerEvent: {}
+[8.534865] (-) TimerEvent: {}
+[8.635435] (-) TimerEvent: {}
+[8.736006] (-) TimerEvent: {}
+[8.836614] (-) TimerEvent: {}
+[8.937270] (-) TimerEvent: {}
+[9.037875] (-) TimerEvent: {}
+[9.138491] (-) TimerEvent: {}
+[9.239155] (-) TimerEvent: {}
+[9.339980] (-) TimerEvent: {}
+[9.440694] (-) TimerEvent: {}
+[9.541413] (-) TimerEvent: {}
+[9.642139] (-) TimerEvent: {}
+[9.742866] (-) TimerEvent: {}
+[9.843715] (-) TimerEvent: {}
+[9.944451] (-) TimerEvent: {}
+[10.045133] (-) TimerEvent: {}
+[10.145746] (-) TimerEvent: {}
+[10.246459] (-) TimerEvent: {}
+[10.347073] (-) TimerEvent: {}
+[10.447627] (-) TimerEvent: {}
+[10.548294] (-) TimerEvent: {}
+[10.648841] (-) TimerEvent: {}
+[10.749355] (-) TimerEvent: {}
+[10.849878] (-) TimerEvent: {}
+[10.950420] (-) TimerEvent: {}
+[11.051070] (-) TimerEvent: {}
+[11.125909] (px4) StdoutLine: {'line': b'-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17\n'}
+[11.151226] (-) TimerEvent: {}
+[11.251789] (-) TimerEvent: {}
+[11.352298] (-) TimerEvent: {}
+[11.395131] (px4) StdoutLine: {'line': b'-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17 - Success\n'}
+[11.395759] (px4) StdoutLine: {'line': b'-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20\n'}
+[11.452472] (-) TimerEvent: {}
+[11.511115] (px4) StdoutLine: {'line': b'-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20 - Failed\n'}
+[11.526273] (px4) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[11.552651] (-) TimerEvent: {}
+[11.653286] (-) TimerEvent: {}
+[11.753922] (-) TimerEvent: {}
+[11.816807] (px4) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.821321] (px4) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.854129] (-) TimerEvent: {}
+[11.954764] (-) TimerEvent: {}
+[12.055472] (-) TimerEvent: {}
+[12.156130] (-) TimerEvent: {}
+[12.256729] (-) TimerEvent: {}
+[12.357356] (-) TimerEvent: {}
+[12.457947] (-) TimerEvent: {}
+[12.558543] (-) TimerEvent: {}
+[12.659230] (-) TimerEvent: {}
+[12.759837] (-) TimerEvent: {}
+[12.860450] (-) TimerEvent: {}
+[12.961119] (-) TimerEvent: {}
+[13.061731] (-) TimerEvent: {}
+[13.162330] (-) TimerEvent: {}
+[13.262839] (-) TimerEvent: {}
+[13.363359] (-) TimerEvent: {}
+[13.463875] (-) TimerEvent: {}
+[13.564428] (-) TimerEvent: {}
+[13.665045] (-) TimerEvent: {}
+[13.765680] (-) TimerEvent: {}
+[13.866343] (-) TimerEvent: {}
+[13.966945] (-) TimerEvent: {}
+[14.067656] (-) TimerEvent: {}
+[14.168423] (-) TimerEvent: {}
+[14.269088] (-) TimerEvent: {}
+[14.369718] (-) TimerEvent: {}
+[14.470352] (-) TimerEvent: {}
+[14.570930] (-) TimerEvent: {}
+[14.671542] (-) TimerEvent: {}
+[14.772178] (-) TimerEvent: {}
+[14.872803] (-) TimerEvent: {}
+[14.973518] (-) TimerEvent: {}
+[15.074157] (-) TimerEvent: {}
+[15.174717] (-) TimerEvent: {}
+[15.275514] (-) TimerEvent: {}
+[15.376260] (-) TimerEvent: {}
+[15.476838] (-) TimerEvent: {}
+[15.577469] (-) TimerEvent: {}
+[15.678104] (-) TimerEvent: {}
+[15.778729] (-) TimerEvent: {}
+[15.879493] (-) TimerEvent: {}
+[15.980146] (-) TimerEvent: {}
+[16.080707] (-) TimerEvent: {}
+[16.181229] (-) TimerEvent: {}
+[16.281809] (-) TimerEvent: {}
+[16.382421] (-) TimerEvent: {}
+[16.483069] (-) TimerEvent: {}
+[16.583887] (-) TimerEvent: {}
+[16.684557] (-) TimerEvent: {}
+[16.785188] (-) TimerEvent: {}
+[16.885788] (-) TimerEvent: {}
+[16.986428] (-) TimerEvent: {}
+[17.087134] (-) TimerEvent: {}
+[17.187869] (-) TimerEvent: {}
+[17.288474] (-) TimerEvent: {}
+[17.389062] (-) TimerEvent: {}
+[17.489700] (-) TimerEvent: {}
+[17.590329] (-) TimerEvent: {}
+[17.690919] (-) TimerEvent: {}
+[17.791632] (-) TimerEvent: {}
+[17.892289] (-) TimerEvent: {}
+[17.992938] (-) TimerEvent: {}
+[18.093594] (-) TimerEvent: {}
+[18.194212] (-) TimerEvent: {}
+[18.295014] (-) TimerEvent: {}
+[18.395746] (-) TimerEvent: {}
+[18.496571] (-) TimerEvent: {}
+[18.597212] (-) TimerEvent: {}
+[18.697807] (-) TimerEvent: {}
+[18.798435] (-) TimerEvent: {}
+[18.898937] (-) TimerEvent: {}
+[18.999524] (-) TimerEvent: {}
+[19.100080] (-) TimerEvent: {}
+[19.200689] (-) TimerEvent: {}
+[19.301392] (-) TimerEvent: {}
+[19.402076] (-) TimerEvent: {}
+[19.502710] (-) TimerEvent: {}
+[19.603420] (-) TimerEvent: {}
+[19.704001] (-) TimerEvent: {}
+[19.804642] (-) TimerEvent: {}
+[19.905185] (-) TimerEvent: {}
+[20.005849] (-) TimerEvent: {}
+[20.107144] (-) TimerEvent: {}
+[20.207757] (-) TimerEvent: {}
+[20.308431] (-) TimerEvent: {}
+[20.409092] (-) TimerEvent: {}
+[20.510117] (-) TimerEvent: {}
+[20.610817] (-) TimerEvent: {}
+[20.711462] (-) TimerEvent: {}
+[20.812073] (-) TimerEvent: {}
+[20.912711] (-) TimerEvent: {}
+[21.013333] (-) TimerEvent: {}
+[21.113992] (-) TimerEvent: {}
+[21.214742] (-) TimerEvent: {}
+[21.315374] (-) TimerEvent: {}
+[21.416051] (-) TimerEvent: {}
+[21.516785] (-) TimerEvent: {}
+[21.617563] (-) TimerEvent: {}
+[21.718192] (-) TimerEvent: {}
+[21.818840] (-) TimerEvent: {}
+[21.919368] (-) TimerEvent: {}
+[22.019979] (-) TimerEvent: {}
+[22.120665] (-) TimerEvent: {}
+[22.221362] (-) TimerEvent: {}
+[22.321996] (-) TimerEvent: {}
+[22.422669] (-) TimerEvent: {}
+[22.523328] (-) TimerEvent: {}
+[22.623930] (-) TimerEvent: {}
+[22.724876] (-) TimerEvent: {}
+[22.825484] (-) TimerEvent: {}
+[22.926137] (-) TimerEvent: {}
+[23.026769] (-) TimerEvent: {}
+[23.127440] (-) TimerEvent: {}
+[23.228363] (-) TimerEvent: {}
+[23.328947] (-) TimerEvent: {}
+[23.429614] (-) TimerEvent: {}
+[23.530294] (-) TimerEvent: {}
+[23.631015] (-) TimerEvent: {}
+[23.731721] (-) TimerEvent: {}
+[23.832410] (-) TimerEvent: {}
+[23.933056] (-) TimerEvent: {}
+[24.033677] (-) TimerEvent: {}
+[24.134345] (-) TimerEvent: {}
+[24.155290] (px4) StdoutLine: {'line': b'-- Building without demo. To enable demo build use: -DWITH_DEMO=True\n'}
+[24.234508] (-) TimerEvent: {}
+[24.335128] (-) TimerEvent: {}
+[24.435734] (-) TimerEvent: {}
+[24.536385] (-) TimerEvent: {}
+[24.637172] (-) TimerEvent: {}
+[24.737820] (-) TimerEvent: {}
+[24.838491] (-) TimerEvent: {}
+[24.939112] (-) TimerEvent: {}
+[25.022797] (px4) StdoutLine: {'line': b'-- ROS_VERSION: 2\n'}
+[25.023449] (px4) StdoutLine: {'line': b'-- AMENT_PREFIX_PATH: /app/install/vision_processor:/app/install/aircraft_controller:/app/install/px4_msgs:/app/install/aircraft_msgs:/opt/ros/jazzy\n'}
+[25.039283] (-) TimerEvent: {}
+[25.139871] (-) TimerEvent: {}
+[25.240498] (-) TimerEvent: {}
+[25.341116] (-) TimerEvent: {}
+[25.441695] (-) TimerEvent: {}
+[25.542298] (-) TimerEvent: {}
+[25.642904] (-) TimerEvent: {}
+[25.743702] (-) TimerEvent: {}
+[25.844248] (-) TimerEvent: {}
+[25.944795] (-) TimerEvent: {}
+[26.045373] (-) TimerEvent: {}
+[26.145935] (-) TimerEvent: {}
+[26.246482] (-) TimerEvent: {}
+[26.347077] (-) TimerEvent: {}
+[26.447660] (-) TimerEvent: {}
+[26.548268] (-) TimerEvent: {}
+[26.648841] (-) TimerEvent: {}
+[26.749369] (-) TimerEvent: {}
+[26.849929] (-) TimerEvent: {}
+[26.950528] (-) TimerEvent: {}
+[27.051139] (-) TimerEvent: {}
+[27.151732] (-) TimerEvent: {}
+[27.252261] (-) TimerEvent: {}
+[27.352815] (-) TimerEvent: {}
+[27.453468] (-) TimerEvent: {}
+[27.554132] (-) TimerEvent: {}
+[27.654790] (-) TimerEvent: {}
+[27.755447] (-) TimerEvent: {}
+[27.856095] (-) TimerEvent: {}
+[27.956713] (-) TimerEvent: {}
+[28.057357] (-) TimerEvent: {}
+[28.157956] (-) TimerEvent: {}
+[28.258563] (-) TimerEvent: {}
+[28.359083] (-) TimerEvent: {}
+[28.459622] (-) TimerEvent: {}
+[28.560503] (-) TimerEvent: {}
+[28.661101] (-) TimerEvent: {}
+[28.761639] (-) TimerEvent: {}
+[28.862175] (-) TimerEvent: {}
+[28.962785] (-) TimerEvent: {}
+[29.063509] (-) TimerEvent: {}
+[29.164144] (-) TimerEvent: {}
+[29.265162] (-) TimerEvent: {}
+[29.365770] (-) TimerEvent: {}
+[29.466397] (-) TimerEvent: {}
+[29.566896] (-) TimerEvent: {}
+[29.667452] (-) TimerEvent: {}
+[29.767992] (-) TimerEvent: {}
+[29.868549] (-) TimerEvent: {}
+[29.969170] (-) TimerEvent: {}
+[30.069707] (-) TimerEvent: {}
+[30.170276] (-) TimerEvent: {}
+[30.270833] (-) TimerEvent: {}
+[30.371409] (-) TimerEvent: {}
+[30.471871] (-) TimerEvent: {}
+[30.572356] (-) TimerEvent: {}
+[30.672876] (-) TimerEvent: {}
+[30.773410] (-) TimerEvent: {}
+[30.873903] (-) TimerEvent: {}
+[30.974665] (-) TimerEvent: {}
+[31.075394] (-) TimerEvent: {}
+[31.176068] (-) TimerEvent: {}
+[31.276525] (-) TimerEvent: {}
+[31.377013] (-) TimerEvent: {}
+[31.427772] (px4) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[31.477171] (-) TimerEvent: {}
+[31.577786] (-) TimerEvent: {}
+[31.678402] (-) TimerEvent: {}
+[31.778984] (-) TimerEvent: {}
+[31.879686] (-) TimerEvent: {}
+[31.980340] (-) TimerEvent: {}
+[32.081162] (-) TimerEvent: {}
+[32.182074] (-) TimerEvent: {}
+[32.282669] (-) TimerEvent: {}
+[32.383300] (-) TimerEvent: {}
+[32.484076] (-) TimerEvent: {}
+[32.584692] (-) TimerEvent: {}
+[32.685465] (-) TimerEvent: {}
+[32.786174] (-) TimerEvent: {}
+[32.886719] (-) TimerEvent: {}
+[32.987269] (-) TimerEvent: {}
+[33.087732] (-) TimerEvent: {}
+[33.188246] (-) TimerEvent: {}
+[33.288761] (-) TimerEvent: {}
+[33.389244] (-) TimerEvent: {}
+[33.489731] (-) TimerEvent: {}
+[33.590237] (-) TimerEvent: {}
+[33.690740] (-) TimerEvent: {}
+[33.791281] (-) TimerEvent: {}
+[33.891898] (-) TimerEvent: {}
+[33.992520] (-) TimerEvent: {}
+[34.093346] (-) TimerEvent: {}
+[34.142642] (px4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[34.193526] (-) TimerEvent: {}
+[34.294160] (-) TimerEvent: {}
+[34.394739] (-) TimerEvent: {}
+[34.495362] (-) TimerEvent: {}
+[34.595960] (-) TimerEvent: {}
+[34.696710] (-) TimerEvent: {}
+[34.797335] (-) TimerEvent: {}
+[34.897902] (-) TimerEvent: {}
+[34.998557] (-) TimerEvent: {}
+[35.099364] (-) TimerEvent: {}
+[35.200065] (-) TimerEvent: {}
+[35.220813] (px4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[35.235781] (px4) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[35.300196] (-) TimerEvent: {}
+[35.400769] (-) TimerEvent: {}
+[35.501443] (-) TimerEvent: {}
+[35.602115] (-) TimerEvent: {}
+[35.702738] (-) TimerEvent: {}
+[35.729555] (px4) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[35.802909] (-) TimerEvent: {}
+[35.903528] (-) TimerEvent: {}
+[36.004148] (-) TimerEvent: {}
+[36.104808] (-) TimerEvent: {}
+[36.205352] (-) TimerEvent: {}
+[36.305861] (-) TimerEvent: {}
+[36.406423] (-) TimerEvent: {}
+[36.506929] (-) TimerEvent: {}
+[36.607462] (-) TimerEvent: {}
+[36.707942] (-) TimerEvent: {}
+[36.808477] (-) TimerEvent: {}
+[36.909114] (-) TimerEvent: {}
+[37.009641] (-) TimerEvent: {}
+[37.110154] (-) TimerEvent: {}
+[37.210661] (-) TimerEvent: {}
+[37.227652] (px4) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[37.310834] (-) TimerEvent: {}
+[37.411334] (-) TimerEvent: {}
+[37.511844] (-) TimerEvent: {}
+[37.612399] (-) TimerEvent: {}
+[37.713006] (-) TimerEvent: {}
+[37.813560] (-) TimerEvent: {}
+[37.861068] (px4) StderrLine: {'line': b'\x1b[31mCMake Error at cmake/package.cmake:104 (target_compile_definitions):\n'}
+[37.861875] (px4) StderrLine: {'line': b'  target_compile_definitions called with non-compilable target type\n'}
+[37.862201] (px4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[37.862497] (px4) StderrLine: {'line': b'  CMakeLists.txt:515 (include)\n'}
+[37.862777] (px4) StderrLine: {'line': b'\n'}
+[37.863083] (px4) StderrLine: {'line': b'\x1b[0m\n'}
+[37.863347] (px4) StdoutLine: {'line': b'-- PX4 SITL .deb version: 1.17.0~alpha1-noble (amd64)\n'}
+[37.913904] (-) TimerEvent: {}
+[38.014487] (-) TimerEvent: {}
+[38.114980] (-) TimerEvent: {}
+[38.215529] (-) TimerEvent: {}
+[38.300113] (px4) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[38.315687] (-) TimerEvent: {}
+[38.416290] (-) TimerEvent: {}
+[38.427503] (px4) JobEnded: {'identifier': 'px4', 'rc': 'SIGINT'}
+[38.439012] (aircraft_controller) JobSkipped: {'identifier': 'aircraft_controller'}
+[38.439347] (vision_processor) JobSkipped: {'identifier': 'vision_processor'}
+[38.439702] (-) EventReactorShutdown: {}

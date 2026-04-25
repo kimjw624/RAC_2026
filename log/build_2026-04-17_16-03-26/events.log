@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.002121] (-) JobUnselected: {'identifier': 'aircraft_msgs'}
+[0.002288] (-) JobUnselected: {'identifier': 'px4'}
+[0.003193] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.003523] (-) JobUnselected: {'identifier': 'vision_processor'}
+[0.003648] (aircraft_controller) JobQueued: {'identifier': 'aircraft_controller', 'dependencies': OrderedDict({'aircraft_msgs': '/app/install/aircraft_msgs', 'px4_msgs': '/app/install/px4_msgs'})}
+[0.003737] (aircraft_controller) JobStarted: {'identifier': 'aircraft_controller'}
+[0.024601] (aircraft_controller) JobEnded: {'identifier': 'aircraft_controller', 'rc': 1}
+[0.035642] (-) EventReactorShutdown: {}

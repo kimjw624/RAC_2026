@@ -1,0 +1,49 @@
+[0.034s] Invoking command in '/app/build/px4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake /app/PX4-Autopilot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/px4
+[0.089s] -- PX4_GIT_TAG: v1.17.0-alpha1-1448-gabc756bf34
+[0.090s] [33mCMake Warning (dev) at CMakeLists.txt:176 (find_package):
+[0.090s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.090s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.090s]   the cmake_policy command to set the policy and suppress this warning.
+[0.090s] 
+[0.090s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.090s] [0m
+[0.151s] -- PX4 config file: /app/PX4-Autopilot/boards/px4/ros2/default.px4board
+[0.530s] -- PLATFORM ros2
+[0.532s] -- ROMFSROOT px4fmu_common
+[0.537s] -- ROOT_PATH /fs/microsd
+[0.540s] -- PARAM_FILE /fs/mtd_params
+[0.567s] -- PX4 config: px4_ros2_default
+[0.567s] -- PX4 platform: ros2
+[0.576s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.630s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.811s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.827s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.890s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.910s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.966s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.104s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.107s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.275s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.414s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.428s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.432s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.477s] -- cmake build type: RelWithDebInfo
+[1.556s] -- Adding fuzztest
+[4.222s] -- Building without demo. To enable demo build use: -DWITH_DEMO=True
+[4.706s] -- ROS_VERSION: 2
+[4.706s] -- AMENT_PREFIX_PATH: /app/install/vision_processor:/app/install/aircraft_controller:/app/install/px4_msgs:/app/install/aircraft_msgs:/opt/ros/jazzy
+[7.645s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.114s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.291s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[8.809s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[9.086s] [31mCMake Error at cmake/package.cmake:104 (target_compile_definitions):
+[9.089s]   target_compile_definitions called with non-compilable target type
+[9.089s] Call Stack (most recent call first):
+[9.089s]   CMakeLists.txt:515 (include)
+[9.089s] 
+[9.089s] -- PX4 SITL .deb version: 1.17.0~alpha1-noble (amd64)
+[9.089s] [0m
+[9.335s] -- Configuring incomplete, errors occurred!
+[9.425s] Invoked command in '/app/build/px4' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake /app/PX4-Autopilot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/app/install/px4

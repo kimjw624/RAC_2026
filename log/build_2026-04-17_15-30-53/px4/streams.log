@@ -1,0 +1,25 @@
+[0.045s] Invoking command in '/app/build/px4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake /app/PX4-Autopilot -DCMAKE_INSTALL_PREFIX=/app/install/px4
+[0.154s] -- PX4_GIT_TAG: v1.17.0-alpha1-1417-gc72a11fe9f
+[0.156s] [33mCMake Warning (dev) at CMakeLists.txt:176 (find_package):
+[0.156s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.157s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.157s]   the cmake_policy command to set the policy and suppress this warning.
+[0.157s] 
+[0.157s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.157s] [0m
+[0.242s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.12.3", minimum required is "3") 
+[0.347s] -- PX4 config file: /app/PX4-Autopilot/boards/px4/ros2/default.px4board
+[0.421s] Traceback (most recent call last):
+[0.422s]   File "<string>", line 1, in <module>
+[0.422s] ModuleNotFoundError: No module named 'menuconfig'
+[0.437s] [31mCMake Error at cmake/kconfig.cmake:6 (message):
+[0.438s]   kconfiglib is not installed or not in PATH
+[0.438s] 
+[0.439s]   please install using "pip3 install kconfiglib"
+[0.439s] 
+[0.439s] Call Stack (most recent call first):
+[0.440s]   CMakeLists.txt:191 (include)
+[0.440s] 
+[0.441s] [0m
+[0.442s] -- Configuring incomplete, errors occurred!
+[0.451s] Invoked command in '/app/build/px4' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake /app/PX4-Autopilot -DCMAKE_INSTALL_PREFIX=/app/install/px4

@@ -1,0 +1,2 @@
+Invoking command in '/app/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake --build /app/build/px4_msgs -- -j20 -l20
+Invoked command in '/app/build/px4_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/app/install/vision_processor:/app/install/aircraft_controller:/opt/ros/jazzy /usr/bin/cmake --build /app/build/px4_msgs -- -j20 -l20

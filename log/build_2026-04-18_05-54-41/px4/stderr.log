@@ -1,0 +1,13 @@
+[33mCMake Warning (dev) at CMakeLists.txt:176 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[31mCMake Error at cmake/package.cmake:104 (target_compile_definitions):
+  target_compile_definitions called with non-compilable target type
+Call Stack (most recent call first):
+  CMakeLists.txt:515 (include)
+
+[0m
