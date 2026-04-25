@@ -1,0 +1,6 @@
+{
+  "package_name": "aircraft_msgs",
+  "non_idl_tuples": [
+    "/app/src/aircraft_msgs:msg/AircraftState.msg"
+  ]
+}

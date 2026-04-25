@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aircraft_msgs/msg/AircraftState.msg
+// generated code does not contain a copyright notice
+
+
+module aircraft_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "TODO Define suitable msg type")
+    struct AircraftState {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+[console_scripts]
+ac_sample = aircraft_controller.ac_sample:main
+takeoff = aircraft_controller.takeoff:main

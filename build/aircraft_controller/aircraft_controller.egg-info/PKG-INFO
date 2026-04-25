@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: aircraft-controller
+Version: 0.1.0
+Summary: Offboard Computer Flight Controller for RAC 2026 Aircraft
+Maintainer: PresidentPlant
+Maintainer-email: nomailforyou@snu.ac.kr
+License: Apache-2.0
+Provides-Extra: test

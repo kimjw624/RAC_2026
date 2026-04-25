@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-550630a6271cbeedace7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "aircraft_msgs__py",
+					"jsonFile" : "directory-aircraft_msgs__py-82837a0bf3c1605a518a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/app/build/aircraft_msgs/aircraft_msgs__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "aircraft_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs-b7b373f49598aaf65207.json",
+					"name" : "aircraft_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs__cpp-06a30ed38cb65f43292f.json",
+					"name" : "aircraft_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "aircraft_msgs__py::@1de4ebf3463b01e61350",
+					"jsonFile" : "target-aircraft_msgs__py-6613af2e35b885dbb47f.json",
+					"name" : "aircraft_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs__rosidl_generator_c-9a226aa760c3fe4a42ef.json",
+					"name" : "aircraft_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs__rosidl_generator_py-08e6730c7b474c48e91e.json",
+					"name" : "aircraft_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs__rosidl_generator_type_description-ea271e8f31424fdd8f43.json",
+					"name" : "aircraft_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs__rosidl_typesupport_c-149ad36cef821450e464.json",
+					"name" : "aircraft_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs__rosidl_typesupport_cpp-e8326300ecd9a4d54ab4.json",
+					"name" : "aircraft_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs__rosidl_typesupport_fastrtps_c-312bf91a37334cfe1208.json",
+					"name" : "aircraft_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs__rosidl_typesupport_fastrtps_cpp-6ea8e66c9ca0a52eea0c.json",
+					"name" : "aircraft_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs__rosidl_typesupport_introspection_c-fc03befc45ee20a9e423.json",
+					"name" : "aircraft_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs__rosidl_typesupport_introspection_cpp-b52bbc87b3ebe4a69613.json",
+					"name" : "aircraft_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs_s__rosidl_typesupport_c-bb9b56269723f3f0a67f.json",
+					"name" : "aircraft_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs_s__rosidl_typesupport_fastrtps_c-3eaf9588ddf5b0ee5219.json",
+					"name" : "aircraft_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs_s__rosidl_typesupport_introspection_c-4e70ec64201f705fa812.json",
+					"name" : "aircraft_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aircraft_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aircraft_msgs_uninstall-cfa1a3455cfa414338b4.json",
+					"name" : "aircraft_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_aircraft_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_aircraft_msgs_egg-337a6c80cfe1e34e6fa3.json",
+					"name" : "ament_cmake_python_build_aircraft_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_aircraft_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_aircraft_msgs-67f05ad5ba367b5fcf94.json",
+					"name" : "ament_cmake_python_symlink_aircraft_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fe1d9576cf62a143dfbf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/app/build/aircraft_msgs",
+		"source" : "/app/src/aircraft_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
