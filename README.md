@@ -8,24 +8,27 @@ git clone https://github.com/kimjw624/RAC_2026.git --recursive
 ```
 
 ### Build docker
+First, you need to move to the directory with the docker-related files.
 ```
 cd \RAC_2026\docker
 ```
 
-Building the images
+Build the images using the docker compose file.
 ```
 docker compose build
 ```
 
-Creating the containers
+Create containers.
 ```
 docker compose up -d
 ```
 
 ### Run containers
-Once you build the containers, you must run / enter them. We have two docker containers, one for px4_sitl simulation and the other for ros2.
+- Once you build the containers, you must run / enter them. We have two docker containers, one for px4_sitl simulation and the other for ros2.
+- The px4_sim container is used to run the sitl simulation. Thus, you should run commands like make px4_sitl gz_x500, etc. There are already aliases made (gazebo, dds, etc) for convenience. However, the command gazebo must be run after clong the PX4_Autopilot and following the instructions. Look at the next section for more details.
+- The ros2 container is used to run ros2 nodes.
 
-Execute docker containers:
+Execute docker containers using the commands below (note that these commands must also be made in the \RAC_2026\docker directory, since related files are also in that directory):
 ```
 ./exec_px4_sim.sh
 ```
@@ -65,3 +68,6 @@ docker ps
 ```
 docker images
 ```
+
+### Running simulations
+- Refer to the notion's simulation page. The preceding procedure must all be completed in order to successfully run the simulation.
